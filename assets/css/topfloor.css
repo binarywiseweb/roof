@@ -15263,6 +15263,26 @@ section {
 }
 
 
+@media (max-width: 767px) {
+
+    /* Disable swiper sliding */
+    .team-two .swiper-wrapper {
+        display: block !important;
+        transform: none !important;
+    }
+
+    .team-two .swiper-slide {
+        width: 100% !important;
+        margin-bottom: 25px;
+    }
+
+    /* Hide pagination + arrows on mobile */
+    .team-two__dot-style,
+    .swiper-button-prev1,
+    .swiper-button-next1 {
+        display: none !important;
+    }
+}
 
 
 
